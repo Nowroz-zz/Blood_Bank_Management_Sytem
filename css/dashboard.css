@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 20, 2020, 11:56:36 AM
+    Author     : inowroz
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    border: 1px transparent;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    border: 1px transparent;
+    float: left;
+}
+
+.header .logo{
+    width: 10%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+    border: 1px transparent;
+}
+
+.header .banner{
+    width: 90%;
+    height: 100%;
+    float: left;
+    border: 1px transparent;
+    
+}
+
+.header .banner .user{
+    width: 90%;
+    height: 100%;
+    padding-top: 25px;
+    padding-right: 30px;
+    border: 1px transparent;
+    float: left;
+    text-align: center;
+    color: #616161;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .banner .logout{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.logout .logout-a{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #90CAF9;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.logout .logout-a:hover{
+    background-color: #64B5F6;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    float: left;
+    border: 1px solid #EEEEEE;
+}
+
+.sidebar{
+    width: 9%;
+    height: 100%;
+    float: left;
+    border: 1px transparent;
+}
+
+.sidebar ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    float: left;
+    background-color: #424242;
+}
+
+.sidebar ul li{
+    width: 100%;
+    height: 13%;
+    float: left;
+    border: 1px transparent;
+}
+
+.sidebar ul li a{
+    background-color: #424242;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px 0px 10px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar ul li a:hover{
+    background-color: #90CAF9;
+    color: white;
+}
+
+.content .dashboard{
+    width: 91%;
+    height: 50%;
+    float: left;
+    border: 1px transparent;
+}
+
+.dashboard .dash-title{
+    width: 100%;
+    height: 40%;
+    float: left;
+    padding: 30px 0px 0px 30px;
+    color: #616161;
+    border: 1px transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards{
+    width: 100%;
+    height: 60%;
+    float: left;
+    border: 1px transparent;
+}
+
+.dashboard .cards .one{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .two{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .three{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .four{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .five{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .six{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .seven{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard .cards .eight{
+    width: 12%;
+    height: 85%;
+    float: left;
+    margin: 5px 0px 5px 5px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    color: #616161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .create-forms{
+    width: 91%;
+    height: 50%;
+    float: left;
+    border: 1px transparent;
+}
+
+.create-forms .create-forms-title{
+    width: 100%;
+    height: 40%;
+    float: left;
+    padding: 30px 0px 0px 30px;
+    color: #616161;
+    border: 1px transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.create-forms .forms{
+    width: 100%;
+    height: 60%;
+    float: left;
+    border: 1px transparent;
+}
+
+.create-forms .forms ul{
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+    border: 1px transparent;
+}
+
+.create-forms .forms ul li{
+    float: left;
+    width: 15%;
+    height: 30%;
+    border: 1px transparent;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.create-forms .forms ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #90CAF9;
+    color: #616161;
+    width: 100%;
+    height: 100%;
+    padding-top: 8px;
+}
+
+.create-forms .forms ul li a:hover{
+    background-color: #64B5F6;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    color: #616161;
+    border: 1px transparent;
+}
